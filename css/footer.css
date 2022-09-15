@@ -1,0 +1,19 @@
+.rodape{
+  padding: 20px;
+  background-color: #13978a;
+  align-items: center;
+  display: grid;
+  justify-content: start;
+  font-size: 1.5rem
+
+}
+
+.rodape p{
+  color: #fff;
+  font-size: 1rem;
+}
+
+.rodape h3{
+  color: #fff;
+  font-size: 1.5rem;
+}

@@ -1,0 +1,31 @@
+.width{
+   padding: 48px 0px 300px;
+   align-items: center;
+   justify-content: center;
+   display: grid;
+   background-color: #ededed;
+}
+
+.resolution-info{
+max-width: 1300px;
+}
+
+.texto-info{
+    color: #008080;
+    font-size: 1.5rem;
+}
+
+.info-ctn{
+    display: grid;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-info{
+    justify-self: center;
+}
+
+.img-info img{
+    border-radius: 16px;
+}

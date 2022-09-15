@@ -1,0 +1,47 @@
+.fundo-produto{
+  background-color: #ededee;
+  padding: 100px;
+}
+
+.produto-back {
+  max-width: 1200px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.produto{
+  padding: 32px 16px;
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.produto h2{
+  color: #262626;
+}
+
+.produto p{
+  color: teal;
+  font-weight: 500;
+  max-width: 50ch;
+}
+
+#info{
+  background-image: var(--svg-info);
+  background-repeat: no-repeat;
+  background-position: 25%;
+  background-size: 1.2rem;
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  bottom: 25%;
+  left: 23%;
+  text-decoration: none;
+}
+
+.produto div.vejamais{
+  position: relative;
+}

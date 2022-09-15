@@ -1,0 +1,98 @@
+.inputs{
+  width: 500px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #005959;
+  outline: none;
+  resize: none;
+  transition: 0.3s;
+  margin-top: 16px;
+}
+
+.box-ctt div.inputs:focus{
+  border-color: #005959;
+}
+
+.inputs:focus,.inputs:valid{
+  border-color: #13978a;
+}
+
+.box-ctt div.custom{
+  position: relative;
+}
+
+.box-ctt div.custom label{
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  color: #757575;
+  cursor: text;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.box-ctt div.custom .inputs:focus ~ label,.box-ctt div.custom .inputs:valid ~ label{
+  transform: translate(0px, -24px);
+  font-size: 0.8rem;
+  color: #13978a;
+}
+
+
+.mensagem textarea{
+  width: 500px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #005959;
+  outline: none;
+  resize: none;
+  transition: 0.3s;
+  margin-top: 0px;
+  font-size: 1rem;
+}
+
+textarea::-webkit-scrollbar{
+  width: 0px;
+}
+
+.box-ctt div.mensagem{
+  position: relative;
+}
+
+.box-ctt div.mensagem label{
+  position: absolute;
+  bottom: 20%;
+  left: 0%;
+  color: #757575;
+  cursor: text;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.box-ctt div.mensagem .inputs:focus ~ label,
+.box-ctt div.mensagem .inputs:valid ~ label{
+  transform: translate(0px, -24px);
+  font-size: 0.8rem;
+  color: #13978a;
+  margin: 0 auto;
+}
+
+
+.botao{
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #13978a;
+  color: #fff;
+  border-radius: 4px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.botao:hover{
+  background-color: #005959;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+  
+}

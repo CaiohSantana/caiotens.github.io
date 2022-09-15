@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashBoarder Contato</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&display=swap" rel="stylesheet">
+  <link rel="icon" href="./img/LogoJapa.svg">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html">
+        <h1>Dashboarder</h1>
+      </a>
+      <div class="links">
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <form action="/">
+      <div class="fundo-box">
+        <div class="box-ctt">
+
+          <h2>Contato</h2>
+
+          <div class="nome custom">
+            <input class="inputs" type="text" required id="nome">
+            <label for="nome">Nome</label>
+          </div>
+          
+      
+          <div class="telefone custom">
+            <input class="inputs" type="number" required id="telefone" maxlength="11">
+            <label for="telefone">Telefone ou WhatsApp</label>
+          </div>
+          
+     
+
+          <div class="email custom">
+            <input class="inputs" type="text" required id="email">
+            <label for="email">E-mail</label>
+          </div>
+
+          <div class="mensagem">
+            <h3>Mensagem</h3>
+            <textarea class="inputs" name="mensagem" id="mensagem" required rows="1" maxlength="500"></textarea>
+            <div class="counter">
+              <p id="wordcounter">0</p>
+              <p>/500</p>
+            </div>
+          </div>
+
+          <button class="botao" type="submit">Enviar Mensagem</button>
+        </div>
+      </div>
+    </form>
+  </main>
+
+  <footer>
+    <div class="rodape  ">
+      <h3 style="font: size 1pt;;"> DashBoarder </h3>
+      <p style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"
+        ]>
+        Aplicação de: Desenvolver da Econômia
+      </p>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+
+  
+  
+</body>
